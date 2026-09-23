@@ -1,21 +1,24 @@
-### To kickstart the boilerplate, run the following commands:
+# DI YANG — Visual Designer
+
+An English-language portfolio for DI YANG, a visual designer based in Xuzhou.
+
+## Local development
 
 ```bash
-yarn
-
-yarn dev
+pnpm install
+pnpm dev
 ```
 
-### If you do not have yarn installed, delete the `yarn.lock` file and install via npm,
+The development server runs at `http://localhost:3000`.
+
+## Production build
 
 ```bash
-npm install
-
-npm run dev
+pnpm build
 ```
 
-### Or install yarn:
+The production files are generated in `dist/`.
 
-```bash
-npm install --global yarn
-```
+## Content status
+
+The identity, location, biography, email, responsive layout, and motion system are in place. The three project entries are intentionally marked as coming soon until final case-study material is supplied.
